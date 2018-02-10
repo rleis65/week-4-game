@@ -1,0 +1,91 @@
+body{
+	background-image: url("../images/circles-light.png")
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+div{
+	
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+.instructions {
+    background-color: #f5e5d1;
+    color: green;
+}
+/* Specfic Elements*/               /*div.gems*/
+div.header {
+    background-color: #da7b14;
+    color: #fff;
+    width: 200px;
+}
+div.instructions{
+	width: 350px;
+}
+/* Classes */
+.numberToMatch {
+    background-color: rgb(84, 206, 145);
+    width: 200px;
+    height: 100px;
+}
+
+.winsAndLosses {
+    background-color: rgb(77, 240, 240);
+    height: 100px;
+    width: 80px;
+    
+}
+.numberToMatch, .winsAndLosses{
+	float: left;
+
+	
+}
+.userTotal{
+	width: 200px;
+    height: 40px;
+    background-color: rgb(29, 187, 179);
+    color: #fff;
+    
+}
+.playerNumber {
+    background-color: rgb(29, 187, 179);
+    color: #fff;
+    width: 200px;
+}
+
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+/* IDs */
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
