@@ -29,7 +29,7 @@ ul {
     background-color: #f5e5d1;
     color: green;
 }
-/* Specfic Elements*/               /*div.gems*/
+
 div.header {
     background-color: #da7b14;
     color: #fff;
@@ -38,7 +38,7 @@ div.header {
 div.instructions{
 	width: 350px;
 }
-/* Classes */
+
 .numberToMatch {
     background-color: rgb(84, 206, 145);
     width: 200px;
@@ -75,17 +75,4 @@ div.instructions{
 .gemImage{
 	height: 60px;
 	margin: 10px;
-}
-/* IDs */
-#blue{
-	color: #3092c7;
-}
-#green{
-	color: #00aa59;
-}
-#red{
-	color: #ec4b5f;
-}
-#yellow{
-	color: #ffc225;
 }
